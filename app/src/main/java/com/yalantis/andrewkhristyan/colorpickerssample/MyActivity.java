@@ -6,8 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.akh.yalantis.colorpickerslibrary.view.ColorPicker;
-import com.akh.yalantis.colorpickerslibrary.view.ColorSelectedListener;
+import com.github.yalantis.colorpickerslibrary.ColorPicker;
+import com.github.yalantis.colorpickerslibrary.ColorSelectedListener;
 
 import java.util.ArrayList;
 import java.util.List;

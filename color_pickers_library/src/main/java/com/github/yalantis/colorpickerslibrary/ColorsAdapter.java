@@ -1,4 +1,4 @@
-package com.akh.yalantis.colorpickerslibrary.view;
+package com.github.yalantis.colorpickerslibrary;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -14,7 +14,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 
-import com.akh.yalantis.colorpickerslibrary.R;
+import com.github.yalantis.colorpickerslibrary.R;
 
 import java.util.List;
 

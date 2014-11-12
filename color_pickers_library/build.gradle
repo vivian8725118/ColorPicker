@@ -6,7 +6,7 @@ android {
     buildToolsVersion "20.0.0"
 
     defaultConfig {
-        applicationId "com.akh.yalantis.colorpickerslibrary"
+        applicationId "com.github.yalantis.colorpickerslibrary"
         minSdkVersion 8
         targetSdkVersion 21
         versionCode 1
@@ -20,15 +20,20 @@ android {
     }
 }
 
-def coreAarFile = file('/color_pickers_library.aar')
+def coreAarFile = file('Macintosh HD/Users/andrewkhristyan/' +
+        'Color-Picker-Library/color_pickers_library/build/outputs/aar/color_pickers_library.aar')
+
 artifacts {
     archives coreAarFile
 }
+
 uploadArchives {
     repositories {
         mavenDeployer {
-            repository(url: "https://github.com/root1991/Color-Picker-Library.git")
-            pom.groupId = 'com.akh.yalantis'
+            repository(url: "https://oss.sonatype.org/service/local/staging/deploy/maven2/") {
+                authentication(userName: "root1991", password: "1991909an")
+            }
+            pom.groupId = 'com.akh.yalantis.colorpickerslibrary'
             pom.artifactId = 'color-picker-lib'
             pom.version = '0.1.0'
         }
