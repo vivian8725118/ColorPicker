@@ -1,4 +1,4 @@
-package com.akh.yalantis.colorpickerslibrary.view;
+package com.github.yalantis.colorpickerslibrary;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -10,7 +10,7 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.PopupWindow;
 
-import com.akh.yalantis.colorpickerslibrary.R;
+import com.github.yalantis.colorpickerslibrary.R;
 
 import java.util.ArrayList;
 import java.util.List;
